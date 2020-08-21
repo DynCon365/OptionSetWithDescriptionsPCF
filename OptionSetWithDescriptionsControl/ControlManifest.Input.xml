@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<manifest>
+  <control namespace="DynamicConsulting" constructor="OptionSetWithDescriptionsControl" version="0.0.1" display-name-key="OptionSetWithDescriptionsControl" description-key="OptionSetWithDescriptionsControl description" control-type="standard">
+    <!-- property node identifies a specific, configurable piece of data that the control expects from CDS -->
+    <property name="optionSet" display-name-key="OptionSet" description-key="The optionset that this control is bound to." of-type="OptionSet" usage="bound" required="true" />
+    <resources>
+      <code path="index.ts" order="1"/>     
+    </resources>
+  </control>
+</manifest>
